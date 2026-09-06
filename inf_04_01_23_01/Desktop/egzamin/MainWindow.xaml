@@ -1,0 +1,54 @@
+﻿<Window x:Class="egzamin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:egzamin"
+        mc:Ignorable="d"
+        Background="LightSteelBlue"
+        Title="Dodaj pracownika. 18" Height="440" Width="750">
+    <StackPanel Orientation="Vertical" Margin="20">
+        <StackPanel Orientation="Horizontal">
+            <GroupBox Header="Dane pracownika" Margin="20, 0, 20, 60" Padding="10" Width="300" Height="250">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Label Content="Imię" Width="100"/>
+                        <TextBox x:Name="txtName" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Label Content="Nazwisko" Width="100"/>
+                        <TextBox x:Name="txtSurname" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Label Content="Stanowisko" Width="100"/>
+                        <ComboBox Width="150" x:Name="cbBox">
+                            <ComboBoxItem Content="Kierownik"/>
+                            <ComboBoxItem Content="Starszy programista"/>
+                            <ComboBoxItem Content="Młodszy programista"/>
+                            <ComboBoxItem Content="Tester"/>
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Generowanie hasła" Margin="20, 0, 20, 60" Padding="10" Width="300" Height="250">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Label Content="Ile znaków?" Width="100"/>
+                        <TextBox x:Name="txtLength" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <CheckBox x:Name="cbUpperLower" Content="Małe i wielkie litery" Width="150" IsChecked="True"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <CheckBox x:Name="cbNums" Content="Cyfry" Width="150"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <CheckBox x:Name="cbChars" Content="Znaki specjalne" Width="150"/>
+                    </StackPanel>
+                    <Button x:Name="btnGenerate" Content="Generuj hasło" HorizontalAlignment="Center" Background="SteelBlue" Foreground="White" Width="100" Click="btnGenerate_Click"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <Button x:Name="btnAdd" Content="Zatwierdź" HorizontalAlignment="Center" Background="SteelBlue" Foreground="White" Width="200" Click="btnAdd_Click"/>
+    </StackPanel>
+</Window>
