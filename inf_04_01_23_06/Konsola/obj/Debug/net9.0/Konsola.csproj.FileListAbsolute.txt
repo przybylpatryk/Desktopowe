@@ -1,0 +1,14 @@
+C:\Users\przyb\Desktop\Konsola\bin\Debug\net9.0\Konsola.exe
+C:\Users\przyb\Desktop\Konsola\bin\Debug\net9.0\Konsola.deps.json
+C:\Users\przyb\Desktop\Konsola\bin\Debug\net9.0\Konsola.runtimeconfig.json
+C:\Users\przyb\Desktop\Konsola\bin\Debug\net9.0\Konsola.dll
+C:\Users\przyb\Desktop\Konsola\bin\Debug\net9.0\Konsola.pdb
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.AssemblyInfoInputs.cache
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.AssemblyInfo.cs
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.csproj.CoreCompileInputs.cache
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.dll
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\refint\Konsola.dll
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.pdb
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\Konsola.genruntimeconfig.cache
+C:\Users\przyb\Desktop\Konsola\obj\Debug\net9.0\ref\Konsola.dll
